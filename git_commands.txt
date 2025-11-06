@@ -16,3 +16,5 @@ git commit -m jam.txt
 git add .
 git commit -m git_commands.txt
 git push origin master
+
+this is some new changes
