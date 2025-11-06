@@ -1,36 +1,18 @@
- 3 rm testing.py
-   4 ls
-   5 type nul > testing.py
-   6 rm testing.py
-   7 clear
-   8 ls
-   9 git init
-  10 dir
-  11 ls
-  12 ls -a
-  13 dir
-  14 ls
-  15 git status
-  16 dir
-  17 git status
-  18 clear
-  19 git status
-  20 git add testing.py
-  21 clear
-  22 git status
-  23 git rm --cached testing.py
-  24 git status
-  25 git add .
-  26 git status
-  27 git commit -m "added testing file"
-  28 git status
-  29 rm testing.py
-  30 ls
-  31 dir
-  32 git status
-  33 git restore testing.py
-  34 ls
-  35 clear
-  36 git status
-  
-  
+print("hello bhai")
+git status
+git history
+git remote -v
+git remote add origin
+git remote -v
+git status
+git remote set -url origin
+git remote set-url origin
+git remote -v
+git push origin master
+git status
+git add jam.txt
+ls
+git commit -m jam.txt
+git add .
+git commit -m git_commands.txt
+git push origin master
