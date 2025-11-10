@@ -22,3 +22,6 @@ this is some new changes
 
 3rd
 push from my side please change this file when you download ok deep.
+
+deep = ok done from my side
+
